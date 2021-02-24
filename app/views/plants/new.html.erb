@@ -1,0 +1,8 @@
+
+
+
+<%= simple_form_for [@garden, @plant] do |f| %>
+  <%= f.input :name %>
+  <%= f.input :image_url %>
+  <%= f.submit 'Save your plant', class: "btn btn-primary"%>
+<% end %>
